@@ -92,5 +92,5 @@ def main():
         st.subheader(f"LSTM Predicted Sales for {product_name} on {prediction_date}:")
         st.write(predicted_value)
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     main()
